@@ -9,8 +9,12 @@
 * CSS
 * Javascript
 * Git
-## Experience
+## Code examples
+* https://codepen.io/sailortushkan/full/YzPYepe
 * https://github.com/sailortushkan
+## Experience
+* FreeCodeCamp curriculum
+* Codewars 6kyu
 ## Education
 * Bachelor's degree
 * Fundamental informatics and IT, South Ural State University, 2017
