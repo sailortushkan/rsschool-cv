@@ -2,6 +2,8 @@
 ## Contact Info 
 * sailortushkan@yandex.ru
 * +79058345579
+## Summary
+* Wish to contribute to the best of my ability
 ## Skills
 * HTML
 * CSS
