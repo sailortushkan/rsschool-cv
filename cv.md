@@ -10,8 +10,8 @@
 * Javascript
 * Git
 ## Code examples
-* https://codepen.io/sailortushkan/full/YzPYepe
-* https://github.com/sailortushkan
+* https://codepen.io/sailortushkan/full/YzPYepe/
+* https://github.com/sailortushkan/
 ## Experience
 * FreeCodeCamp curriculum
 * Codewars 6kyu
@@ -20,4 +20,4 @@
 * Fundamental informatics and IT, South Ural State University, 2017
 ## English
 * EF Certificate C2 
-* www.efset.org/cert/A37Twf
+* www.efset.org/cert/A37Twf/
