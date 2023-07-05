@@ -23,9 +23,9 @@
 ## Опыт работы:
 
 1+ год Junior Javascript developer в travel-агенстве
-Проект:
-https://datepicker-five.vercel.app/
-Код проекта: https://github.com/sailortushkan/datepicker/
+
+[Ссылка на проект календаря дат поездки](https://datepicker-five.vercel.app/ 'Календарь поездки')
+[Код проекта на Github](https://github.com/sailortushkan/datepicker/ 'Репозиторий с кодом календаря')
 
 ---
 
