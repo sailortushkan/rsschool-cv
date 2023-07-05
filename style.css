@@ -1,3 +1,61 @@
 body {
-  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+section {
+  padding: 10px 0;
+}
+
+code {
+  display: block;
+  padding: 20px;
+  margin-top: 10px;
+  background: #efefef;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: small;
+  border-top: 1px solid black;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.page-container {
+  width: 600px;
+}
+
+.page-heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.projects-links {
+  padding-top: 10px;
 }
