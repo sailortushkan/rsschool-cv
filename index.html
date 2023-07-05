@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
     <title>CV, Tatiana Matvienko</title>
   </head>
   <body>
     <div class="page-container">
-      <div class="page-heading">
-        <img src="./assets/photo.jpg" height="50px" width="50px" alt="Profile photo" />
+      <header class="page-heading">
+        <img class="avatar" src="./assets/photo.jpg" height="100" width="100" alt="Profile photo">
         <h1>Tatiana Matvienko, JS-developer</h1>
-      </div>
+      </header>
 
       <section>
         <h2>Contacts</h2>
@@ -20,13 +23,11 @@
         </ul>
 
         <p>
-          My goal: improve knowledge level in the development field, as I notice lack of deep understanding of some
-          concepts, especially those that are not present in my routine tasks.
+          My goal is to improve my knowledge level in the development field, as I notice lack of deep understanding of
+          some concepts, especially those that are not present in my routine tasks.
         </p>
-        <p>My strong suit: I believe that everything is figureoutable.</p>
+        <p>My strong suit is believing that everything is figureoutable.</p>
       </section>
-
-      <hr />
 
       <section>
         <h2>Skills</h2>
@@ -36,7 +37,6 @@
           <li>Next.js</li>
           <li>ChakraUI</li>
           <li>TailwindUI</li>
-          <li>LessCSS</li>
           <li>GraphQL</li>
           <li>Git</li>
         </ul>
@@ -44,12 +44,13 @@
 
       <section>
         <h2>Job experience</h2>
-
         <p>1+ year Junior Javascript developer in online travel agency</p>
+      </section>
 
-        <p>Code examples:</p>
+      <section>
+        <h2>Code examples</h2>
         <code> const FilterString = (value) => (Number(value.match(/\d/g).join(''))); </code>
-        <p>
+        <p class="projects-links">
           <a href="https://datepicker-five.vercel.app/datepicker" target="_blank"
             >Mobile-first Date Picker on Next.js and ChakraUI, deployed with Vercel</a
           >
@@ -59,18 +60,16 @@
         </p>
       </section>
 
-      <hr />
-
       <section>
         <h2>Education</h2>
         <ul>
-          <li>Bachelor's degree "Fundamental Informatics and Information Technologies", SUSU, 2017</li>
+          <li>Bachelor's degree in Fundamental Informatics and Information Technologies, SUSU, 2017</li>
           <li>FreeCodeCamp Curriculum Responsive Web Design Certification (in progress)</li>
           <li>
             Finished Coursera Learning How to Learn: Powerful mental tools to help you master tough subjects, 2021
           </li>
           <li>
-            Earned
+            <span> Earned certificate for </span>
             <a href="https://coursera.org/share/d20ef1ea015874ea7f5e05b48da2fdcb"
               >Mathematics and Python for Data Analysis, 2020</a
             >
@@ -80,8 +79,19 @@
 
       <section>
         <h2>Level of English</h2>
-        <p>Level C2 Proficient <a href="https://www.efset.org/cert/A37Twf">EF SET Certificate</a></p>
+        <p>Level C2 Proficient with <a href="https://www.efset.org/cert/A37Twf">EF SET Certificate</a></p>
       </section>
+
+      <footer>
+        <div>Created by <a href="https://github.com/sailortushkan">sailortushkan</a> in 2023</div>
+        <div>
+          Based on
+          <a href="https://rs.school/js/"
+            ><img src="./assets/rs_school_js.svg" height="20" width="70" alt="RS School Logo"
+          ></a>
+          task
+        </div>
+      </footer>
     </div>
   </body>
 </html>
