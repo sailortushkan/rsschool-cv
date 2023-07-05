@@ -28,6 +28,11 @@ My strong suit: I believe that everything is figureoutable.
 
 1+ year Junior Javascript developer in online travel agency
 
+Code examples:
+```
+const FilterString = (value) => (Number(value.match(/\d/g).join('')));
+```
+
 [Mobile-first Date Picker on Next.js and ChakraUI, deployed with Vercel](https://datepicker-five.vercel.app/datepicker)
 
 [Date Picker on Github](https://github.com/sailortushkan/datepicker/)
